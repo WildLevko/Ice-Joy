@@ -1,0 +1,214 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-image: url("banner1.jpg");
+    height: 500px;
+    background-size: cover;
+}
+nav ul{
+    display: flex;
+    background-color: rgb(127, 197, 209);
+    justify-content: center;
+    text-align: center;
+    height: 40px;
+}
+nav li{
+    display: block;
+    padding: 10px;
+    font-size: 15px;
+}
+nav li a{
+    text-decoration: none;
+    color: rgb(52, 107, 141);
+    font-family: cursive;
+}
+nav a:hover{
+    color:rgb(163, 0, 149);
+    font-size: 20px;
+}
+nav a:active{
+    color: rgb(186, 36, 36);
+}
+li:hover ul{
+    display: block;
+}
+nav li ul{
+    display: none;
+    position: absolute;
+    left: 34%;
+    top: 10%;
+    padding: 20px;
+}
+
+
+.conteiner111{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.conteiner111 img{
+    margin-top: -1%;
+    border-radius: 15px;
+}
+.conteiner111 #imgflex1{
+    margin-right: 15%;
+}
+#novi-smaki{
+    position: absolute;
+    top: 140%;
+    left: 62%;
+    font-family: cursive;
+}
+#novi-smaki h1{
+    color: rgb(32, 63, 142);
+    text-align: center;
+    font-size: 20px;
+}
+#novi-smaki ul{
+    color: rgb(48, 8, 150);
+    font-size: 20px;
+    text-align: center;
+}
+#novi-smaki h2{
+    color: rgb(77, 112, 200);
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.conteiner222{
+    background-color: #ededed;
+    box-shadow: 0 0 60px 0 rgba(1, 187, 208, 0.8),
+inset -52px -56px 64px 0px #80797991,
+0 0 40px 10px rgba(20, 234, 245, 0.54),
+inset 0 0 10px 0 #ffb3d5;
+    border-radius: 17px;
+    padding: 20px 5px;
+}
+.conteiner222 #demotext1{
+    color: #FFFFFF;
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #2d7aff 0px 0px 20px, #2d7aff 0px 0px 30px, #2d7aff 0px 0px 40px, #2d7aff 0px 0px 50px, #2d7aff 0px 0px 75px;
+    color: #FFFFFF;
+    font-size: 50px;
+    text-align: center;
+    margin: 3% 5%;
+    font-family: cursive;
+}
+.conteiner222 #demotext2{
+    color: #FFFFFF;
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #e32dff 0px 0px 20px, #e32dff 0px 0px 30px, #e32dff 0px 0px 40px, #e32dff 0px 0px 50px, #e32dff 0px 0px 75px;
+    color: #FFFFFF;
+    font-size: 50px;
+    text-align: center;
+    margin: 3% 5%;
+    font-family: cursive;
+}
+.rizne-morozivo1{
+    background-image: url("https://files.oaiusercontent.com/file-BZmh18LFbmSf2gJoD6wm7q?se=2024-12-24T15%3A25%3A21Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Dc990999e-27ff-4029-9863-77cabaccd629.webp&sig=Rtax%2BjnZepRyseYZp8RYGYy4zMw1tbQgVyS4Hycp7KA%3D");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    place-items: center;
+    text-align: center;
+    border-radius: 20px;
+}
+.rizne-morozivo1 img{
+    border-radius: 27px;
+    margin: 6% 5%;
+}
+.rizne-morozivo1 h2{
+    font-size: 23px;
+    font-family: cursive;
+    color: #7bffb6;
+    background-color: #f08dffa9;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid burlywood;
+    position: absolute;
+}
+.i1{
+    top: 227%;
+    left: 6%;
+}
+.i2{
+    top: 227%;
+    left: 31%;
+}
+.i3{
+    top: 227%;
+    left: 54%;
+}
+.i4{
+    top: 227%;
+    left: 81%;
+}
+
+.p1 .o1{
+    background-color: #a7ddff;
+    padding: 20px;
+    font-size: 23px;
+    font-family: cursive;
+    width: 50%;
+    border-radius: 10px;
+    text-align: center;
+}
+.p1 .o2{
+    background-color: #dda2ed;
+    padding: 20px;
+    font-size: 23px;
+    font-family: cursive;
+    width: 50%;
+    border-radius: 10px;
+    text-align: center;
+}
+.kmimg1{
+    position: absolute;
+    top: 258%;
+    left: 59%;
+    border-radius: 11px;
+}
+.o1:hover {
+    animation: pulse 0.5s infinite;
+}
+.o2:hover {
+    animation: tilt 0.6s infinite;
+}
+.kmimg1:hover{
+    animation: jump 0.7s infinite;
+}
+@keyframes pulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+}
+@keyframes tilt {
+    0%, 100% { transform: rotate(0deg); }
+    40% { transform: rotate(10deg); }
+    80% { transform: rotate(-10deg);}
+}
+@keyframes jump {
+    0%, 100% { transform: scale(1);}
+    40%, 68% { transform: scale(1.2);}
+    87%, 95% { transform: scale(0.9);}
+}
+
+
+
+
+
+footer{
+    background-color: rgb(100, 100, 161);
+    padding: 6px 0;
+    text-align: center;
+}
+footer h2{
+    margin: 10px 0;
+    color:rgb(65, 69, 68);
+    font-size: 19px;
+    font-family: cursive;
+}
+#footer-content a{
+    color: rgb(0, 157, 255);
+    text-decoration: none;
+}
